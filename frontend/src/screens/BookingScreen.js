@@ -19,6 +19,7 @@ const BookingScreen = () => {
                 plugins={[dayGridPlugin, interactionPlugin, timeGridPlugin]}
                 dateClick={handleDateClick}
                 initialView="timeGridWeek"
+                
               />
             </div>
           </div>
